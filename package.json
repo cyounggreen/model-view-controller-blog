@@ -1,0 +1,31 @@
+{
+    "name": "tech-blog",
+    "version": "1.0.0",
+    "description": "MVC Blog",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js",
+      "seed": "node seeds/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/YoungANDgreen/MVC-blog.git"
+    },
+    "bugs": {
+      "url": "https://github.com/YoungANDgreen/MVC-blog"
+    },
+    "homepage": "https://github.com/YoungANDgreen/MVC-blog",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "connect-session-sequelize": "^7.1.1",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-handlebars": "^5.3.0",
+      "express-session": "^1.17.1",
+      "jest": "^26.6.3",
+      "mysql2": "^2.2.5",
+      "sequelize": "^6.6.2"
+    },
+    "devDependencies": {}
+  }
